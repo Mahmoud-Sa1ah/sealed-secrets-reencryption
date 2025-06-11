@@ -30,7 +30,7 @@ Use `kubectl` to fetch all SealedSecrets in the cluster:
 
 ```bash
 kubectl get sealedsecrets -A -o json
-
+```
 
 
 Namespace:
