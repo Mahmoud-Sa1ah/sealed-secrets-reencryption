@@ -76,7 +76,7 @@ spec:
       - name: data
         persistentVolumeClaim:
           claimName: your-pvc
-          ```
+```
 📥 Apply Re-encrypted Secrets
 ```
 kubectl apply -f reencrypted-secrets/
@@ -94,10 +94,9 @@ kubeseal reencrypt --concurrency=10
 ```
 Batch large requests:
 
-bash
-Copy
-Edit
+```
 kubeseal reencrypt --batch-size=100
+```
 🔒 Security Enhancements
 Test without applying changes:
 
